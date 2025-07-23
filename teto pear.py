@@ -27,7 +27,7 @@ if opcion_1 == "linterna":
         otra_2 =input("\n HABLAS CON EL O LO ATACAS :  ").lower()
         if otra_2 =="hablas con el":
             print("al hablar con el te das cuenta que habla español y es muy pana, has ganado un amigo.")
-        elif otra_2 == "atacas":
+        elif otra_2 == "atacar":
             print("al atacarlo lo lastimas y este se enoja contigo y te demanda , felicidades has perdido el juicio (literal y figurativamente lol ) ")
     if opcion_1_2 == "ciudad":
         print(" vas a la ciudad y te encuentras al oso , parece que trabaja en polar o algo asi . este te invita una cerveza y te haces su amigo. has ganado el juego y una cerveza :D ")
