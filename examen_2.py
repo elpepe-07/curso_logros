@@ -8,7 +8,7 @@ def numero_random():
     
     while not adivinando:
         try:
-            intento = int(input("ingresa tu intento: ")).strip()
+            intento = int(input("ingresa tu intento: "))
             intentos += 1
             if intento < numero_secreto:
                 print("El numero es mayor sigue")
