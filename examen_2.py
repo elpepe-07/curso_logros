@@ -8,15 +8,15 @@ def numero_random():
     
     while not adivinando:
         try:
-            intento = int(input("ingresa tu intento: "))
+            intento = int(input("ingresa tu intento: ")).strip()
             intentos += 1
             if intento < numero_secreto:
                 print("El numero es mayor sigue")
             elif intento > numero_secreto:
-                print("El numero es menor. !sigue intentando¡")
+                print("El numero es menor sigue ")
             else:
                 adivinando = True
-                print(f"felicidades ese es el numero en {intentos} intentos ")
+                print(f"ese es el numero en {intentos} intentos lo adivinaste :D")
         except ValueError:
-            print("Por favor,  ingresa un numero valido")                
+            print("so que w")                
 numero_random()
