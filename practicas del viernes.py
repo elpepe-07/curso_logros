@@ -21,10 +21,12 @@
 #precios["banana"] = 0.4
 #print(precios)
 
-capitales = {
-    "Francia": "Paris",
-    "Italia": "Roma",
-    "España": "Madrid"
-}
-for pais, capital in capitales.items():
-    print(f"La capital de {pais} es {capital}")
+#capitales = {
+#    "Francia": "Paris",
+#    "Italia": "Roma",
+#    "España": "Madrid"
+#}
+#for pais, capital in capitales.items():
+#    print(f"La capital de {pais} es {capital}")
+
+# aca los puse en comentarios para poner toda la practica en un solo archivo y facilitarme el pasarselo, y para correr el codigo que quiera solo tendra que borrar los numerales
