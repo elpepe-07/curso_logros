@@ -10,8 +10,6 @@ while True:
         precio = float(input(f"ingresa el precio de la {comida}: "))
         comidas.append(comida)
         precios.append(precio)
-
-# Option to remove items
 while True:
     print("\nLista actual de comidas:")
     for idx, (comida, precio) in enumerate(zip(comidas, precios)):
