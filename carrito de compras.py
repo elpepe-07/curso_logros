@@ -10,11 +10,12 @@ while True:
         precio = float(input(f"ingresa el precio de la {comida}: "))
         comidas.append(comida)
         precios.append(precio)
+
 while True:
     print("\nLista actual de comidas:")
     for idx, (comida, precio) in enumerate(zip(comidas, precios)):
         print(f"{idx+1}. {comida} - ${precio}")
-    borrar = input("¿Quieres borrar algún elemento? Escribe el número o 'n' para continuar: ").strip().lower()
+    borrar = input("si quieres borrar una cosa en especifico escribe el nuemro  o 'n' para continuar: ").strip().lower()
     if borrar == "n":
         break
     try:
